@@ -1001,7 +1001,7 @@
         
       $.getScript('//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js',function(){
 
-$('.img-responsive .lazy').lazyload({
+$('.img-responsive').lazyload({
 
 });
   
@@ -1011,6 +1011,23 @@ $('.img-responsive .lazy').lazyload({
         });
         
         </script>
+        <script type='text/javascript'>
+        
+    $(document).ready(function() {
+        
+      $.getScript('//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js',function(){
+
+$('.lazy').lazyload({
+
+});
+  
+  
+});
+        
+        });
+        
+        </script>
+
 
 </body>
 
